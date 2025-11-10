@@ -1,0 +1,58 @@
+partial alphanumeric_keys
+xkb_symbols "dvorak" {
+    name[Group1]= "English (Real Programmers Dvorak With LV Alt)";
+
+    key <TLDE> { [ dollar,        asciitilde,  dead_grave,     dead_tilde ] };
+
+    key <AE01> { [ plus,          7 ] };
+    key <AE02> { [ bracketleft,   5 ] };
+    key <AE03> { [ braceleft,     3 ] };
+    key <AE04> { [ parenleft,     1 ] };
+    key <AE05> { [ ampersand,     9 ] };
+    key <AE06> { [ equal,         0,            dead_circumflex, dead_circumflex ] };
+    key <AE07> { [ parenright,    2 ] };
+    key <AE08> { [ braceright,    4 ] };
+    key <AE09> { [ bracketright,  6,            dead_grave ] };
+    key <AE10> { [ asterisk,      8 ] };
+    key <AE11> { [ exclam,        percent ] };
+    key <AE12> { [ bar,           grave,        dead_tilde ] };
+    
+
+    key <AD01> { [ apostrophe,    quotedbl,     dead_ogonek,     dead_doubleacute ] };
+    key <AD02> { [ comma,         less,         dead_cedilla,    dead_caron ] };
+    key <AD03> { [ period,        greater,      dead_abovedot,   periodcentered ] };
+    key <AD04> { [ p,             P ] };
+    key <AD05> { [ y,             Y ] };
+    key <AD06> { [ f,             F ] };
+    key <AD07> { [ g,             G,            gcedilla,        Gcedilla ] };
+    key <AD08> { [ c,             C,            ccaron,          Ccaron ] };
+    key <AD09> { [ r,             R ] };
+    key <AD10> { [ l,             L,            lcedilla,        Lcedilla ] };
+    key <AD11> { [ slash,         question ] };
+    key <AD12> { [ at,            asciicircum ] };
+
+    key <AC01> { [ a,             A,            amacron,         Amacron ] };
+    key <AC02> { [ o,             O ] };
+    key <AC03> { [ e,             E,            emacron,         Emacron ] };
+    key <AC04> { [ u,             U,            umacron,         Umacron ] };
+    key <AC05> { [ i,             I,            imacron,         Imacron ] };
+    key <AC06> { [ d,             D ] };
+    key <AC07> { [ h,             H ] };
+    key <AC08> { [ t,             T ] };
+    key <AC09> { [ n,             N,            ncedilla,        Ncedilla ] };
+    key <AC10> { [ s,             S,            scaron,          Scaron ] };
+    key <AC11> { [ minus,         underscore ] };
+
+    key <AB01> { [ semicolon,     colon,        dead_acute,      dead_diaeresis ] };
+    key <AB02> { [ q,             Q ] };
+    key <AB03> { [ j,             J ] };
+    key <AB04> { [ k,             K,            kcedilla,        Kcedilla ] };
+    key <AB05> { [ x,             X ] };
+    key <AB06> { [ b,             B ] };
+    key <AB07> { [ m,             M ] };
+    key <AB08> { [ w,             W ] };
+    key <AB09> { [ v,             V ] };
+    key <AB10> { [ z,             Z,            zcaron,          Zcaron ] };
+
+    key <BKSL> { [ backslash,     numbersign ] };
+};
